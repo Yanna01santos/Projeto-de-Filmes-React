@@ -5,9 +5,6 @@ import { Container } from "../pages/styles";
 import "../Global.css";
 
 
-
-
-
 const Descricao = () => {
   const [filmes, setFilmes] = useState([]);
 

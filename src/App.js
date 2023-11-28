@@ -4,18 +4,13 @@ import Descricao from "./pages/descricao";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
-
-   return (
-    <div>
-
+  return (
+    <Router>
       <Routes>
-      <Route path="/home" element={<Home />} />
-      <Route path="/descricao" element={<Descricao />} />
-
-     </Routes>
-
-      
-    </div>
+        <Route path="/home" element={<Home />} />
+        <Route path="/descricao" element={<Descricao />} />
+      </Routes>
+    </Router>
   );
 };
 
